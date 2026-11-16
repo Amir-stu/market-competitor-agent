@@ -1,0 +1,17 @@
+{
+  "market": "Fake-Widgets (Testdaten)",
+  "geography": "DACH",
+  "period": "2025",
+  "currency": "EUR",
+  "competitors": ["Wettbewerber A", "Wettbewerber B", "Wettbewerber C"],
+  "kpis": [
+    {"id": "umsatz", "name": "Umsatz", "unit": "Mio EUR"},
+    {"id": "marktanteil", "name": "Marktanteil", "unit": "%"},
+    {"id": "mitarbeiter", "name": "Mitarbeiter", "unit": "Anzahl"}
+  ],
+  "sources": [
+    {"id": "S1", "kind": "file", "location": "examples/sources/kennzahlen.csv"},
+    {"id": "S2", "kind": "file", "location": "examples/sources/bericht.md"}
+  ],
+  "open_questions": []
+}

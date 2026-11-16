@@ -1,0 +1,25 @@
+{
+  "findings": [
+    {
+      "id": "A1",
+      "headline": "Wettbewerber A führt bei Umsatz und Marktanteil",
+      "statement": "Wettbewerber A erzielte 2025 einen Umsatz von 120 Mio EUR und einen Marktanteil von 38 %.",
+      "fact_ids": ["F01", "F04"],
+      "chart_id": "umsatz"
+    },
+    {
+      "id": "A2",
+      "headline": "Wettbewerber B folgt mit Abstand",
+      "statement": "Wettbewerber B kommt auf 95 Mio EUR Umsatz und 30 % Marktanteil.",
+      "fact_ids": ["F02", "F05"],
+      "chart_id": "marktanteil"
+    },
+    {
+      "id": "A3",
+      "headline": "Datenlücke bei Wettbewerber C",
+      "statement": "Für Wettbewerber C liegt keine Mitarbeiterzahl vor; der Umsatz beträgt 60 Mio EUR.",
+      "fact_ids": ["F03"],
+      "chart_id": null
+    }
+  ]
+}

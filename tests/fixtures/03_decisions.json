@@ -1,0 +1,8 @@
+{
+  "resolutions": [
+    {"conflict_id": "K1", "chosen_fact_id": "F01", "rationale": "S2 enthält einen einmaligen Sondereffekt; S1 ist der operative Umsatz."}
+  ],
+  "exclusions": [],
+  "notes": "Mitarbeiterzahl für Wettbewerber C fehlt in allen Quellen.",
+  "feedback_addressed": []
+}

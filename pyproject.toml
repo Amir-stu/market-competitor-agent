@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-competitor-agent"
+version = "0.1.0"
+description = "Deterministic backbone for a Claude Code market and competitor analysis pipeline"
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.6",
+  "openpyxl>=3.1",
+  "python-pptx>=0.6.23",
+  "matplotlib>=3.8",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5"]
+
+[project.scripts]
+mca = "mca.cli:main"
+
+[tool.setuptools]
+packages = ["mca"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

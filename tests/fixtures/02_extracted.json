@@ -1,0 +1,13 @@
+{
+  "facts": [
+    {"id": "F01", "competitor": "Wettbewerber A", "kpi": "umsatz", "value": 120, "unit": "Mio EUR", "period": "2025", "source_id": "S1", "locator": "B2", "quote": "120"},
+    {"id": "F02", "competitor": "Wettbewerber B", "kpi": "umsatz", "value": 95, "unit": "Mio EUR", "period": "2025", "source_id": "S1", "locator": "B3", "quote": "95"},
+    {"id": "F03", "competitor": "Wettbewerber C", "kpi": "umsatz", "value": 60, "unit": "Mio EUR", "period": "2025", "source_id": "S1", "locator": "B4", "quote": "60"},
+    {"id": "F04", "competitor": "Wettbewerber A", "kpi": "marktanteil", "value": 38, "unit": "%", "period": "2025", "source_id": "S1", "locator": "C2", "quote": "38"},
+    {"id": "F05", "competitor": "Wettbewerber B", "kpi": "marktanteil", "value": 30, "unit": "%", "period": "2025", "source_id": "S1", "locator": "C3", "quote": "30"},
+    {"id": "F06", "competitor": "Wettbewerber C", "kpi": "marktanteil", "value": 19, "unit": "%", "period": "2025", "source_id": "S1", "locator": "C4", "quote": "19"},
+    {"id": "F07", "competitor": "Wettbewerber A", "kpi": "mitarbeiter", "value": 450, "unit": "Anzahl", "period": "2025", "source_id": "S1", "locator": "D2", "quote": "450"},
+    {"id": "F08", "competitor": "Wettbewerber B", "kpi": "mitarbeiter", "value": 310, "unit": "Anzahl", "period": "2025", "source_id": "S1", "locator": "D3", "quote": "310"},
+    {"id": "F09", "competitor": "Wettbewerber A", "kpi": "umsatz", "value": 131, "unit": "Mio EUR", "period": "2025", "source_id": "S2", "locator": "Absatz 2", "quote": "einen Umsatz von 131 Mio EUR, einschließlich eines einmaligen Sondereffekts"}
+  ]
+}

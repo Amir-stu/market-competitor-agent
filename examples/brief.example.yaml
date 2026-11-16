@@ -1,0 +1,17 @@
+# TESTDATEN – fiktiver Auftrag zum Ausprobieren der Pipeline. Alle Firmen und Zahlen sind erfunden.
+auftrag: Vergleiche die drei größten Anbieter im Markt für Fake-Widgets nach Umsatz, Marktanteil und Mitarbeiterzahl.
+markt: Fake-Widgets (Testdaten)
+region: DACH
+zeitraum: "2025"
+waehrung: EUR
+wettbewerber:
+  - Wettbewerber A
+  - Wettbewerber B
+  - Wettbewerber C
+kennzahlen:
+  - Umsatz in Mio EUR
+  - Marktanteil in %
+  - Mitarbeiter (Anzahl)
+quellen:
+  - examples/sources/kennzahlen.csv
+  - examples/sources/bericht.md
